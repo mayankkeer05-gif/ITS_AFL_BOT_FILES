@@ -1,0 +1,19 @@
+{
+  "name": "mc-bot-panel",
+  "version": "3.0.0",
+  "description": "Multi-bot Minecraft AFK manager panel (max 10 bots) - Railway ready",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --check server.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "author": "Lamgerr",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mineflayer": "^4.34.0"
+  }
+}
